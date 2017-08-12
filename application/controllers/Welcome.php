@@ -12,10 +12,11 @@ class Welcome extends CI_Controller
     public function index()
     {
 
+
         $data['base_url'] = $this->config->item('base_url');
 
-        $this->load->view('home/select_chat', $data);
-
+//        $this->load->view('home/select_chat', $data);
+        $this->load->view('home/chat0811', $data);
 //        $this->load->view('pages/home', $data);
 
 //		echo $this->getIP().'<br>';
@@ -31,22 +32,9 @@ class Welcome extends CI_Controller
 
 
 
+
 }
 
 
-//class Pages extends CI_Controller {
-//    public function view($page = 'home') {
-//        if (!file_exists(APPPATH.'views/pages'.$page.'.php')) {
-//            show_404();
-//        }
-//
-//        $data["title"] = ucfirst($page);
-//
-//        $this->load->view('templates/header', $data);
-//        $this->load->view('pages/'.$page, $data);
-//        $this->load->view('templates/fotter', $data);
-//
-//    }
-//
-//}
+
 ?>

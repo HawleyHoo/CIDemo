@@ -13,3 +13,7 @@ class BS_Controller extends CI_Controller
         parent::__construct();
     }
 }
+
+// 自定义公用控制器
+include APPPATH . 'core/Web_Controller.php';
+include APPPATH . 'core/Api_Controller.php';
