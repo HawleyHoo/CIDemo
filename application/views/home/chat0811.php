@@ -2,18 +2,25 @@
 //By Weffen 2017-06-20
 //session_start();
 //include("simple-php-captcha.php");
-//$_SESSION['captcha'] = simple_php_captcha();
+$_SESSION['captcha'] = 1234;//simple_php_captcha();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<!--    --><?php //include 'header.php';  ?>
+    <?php include 'header.php';  ?>
     <!--    new for signup-->
     <link href="/static/cqq/css/signup.css" rel="stylesheet">
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/loadingoverlay.min.js"></script>
+<!--    <script src="../js/jquery.validate.min.js"></script>-->
+<!--    <script src="../js/loadingoverlay.min.js"></script>-->
     <script src="/static/cqq/js/jquery.js"></script>
+
+    <link href="/static/cqq/css/custom.css" rel="stylesheet">
+    <link href="/static/cqq/css/bootstrap.css" rel="stylesheet">
+<!--    <link href="/static/cqq/css/modern-business.css" rel="stylesheet">-->
+
+<!--    <link href="/static/cqq/css/owl.carousel.css" rel="stylesheet">-->
+<!--    <link href="/static/cqq/css/owl.theme.default.css" rel="stylesheet">-->
 
 </head>
 <body>
@@ -156,7 +163,7 @@
     }
 
 </script>
-<?php include 'nav.php';  ?>
+<?php //include 'nav.php';  ?>
 
 <!-- Page Content -->
 <div class="page_ttl"><div class="container"><h1>智讯在线</h1></div></div>
@@ -174,17 +181,9 @@
 </div><!--end of select_chat -->
 
 
-<!--
-    <div class="chatselectbox" id="blackbg">
-        <div class="tipsbox" id="tipsbox">
 
-          <p class="password" id="room_tips"></p>
-        </div>
-        <div class="blackbg" onclick="hidetips()"></div>
-    </div>
--->
-<div class="chatselectbox" id="blackbg">
-    <div class="tipsbox signinupbox" id="tipsbox">
+<div class="" id="blackbg">
+    <div class=" " id="tipsbox">
 
         <div class="col-sm-6">
             <h3 type="button" class="sub_ttl" id="login_id">登入</h3>
@@ -208,7 +207,7 @@
                         <div class="col-xs-4 inputtitle form-fd"><span class="red_star">*</span>验证码：</div>
                         <div class="col-xs-8 inputfield" style="text-align: left">
                             <input type = "text" class="form-control" style="width:50%;display: inline-block" id="captcha" required name="captcha"/>
-                            <span id="captcha_loading" style="display: none">加载中...</span><img id="captcha-image" src="<?=$_SESSION['file:///Macintosh HD/Users/CG/Library/Caches/com.binarynights.ForkLift2/%234/captcha']['image_src']?>" style="max-width: 90px; max-height: 34px; cursor: pointer" onclick="refresh_captcha()" title="点击刷新">
+                            <span id="captcha_loading" style="display: none">加载中...</span><img id="captcha-image" src="" style="max-width: 90px; max-height: 34px; cursor: pointer" onclick="refresh_captcha()" title="点击刷新">
                         </div>
                     </div>
 
