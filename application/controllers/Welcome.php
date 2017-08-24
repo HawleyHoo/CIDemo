@@ -16,7 +16,7 @@ class Welcome extends CI_Controller
         $data['base_url'] = $this->config->item('base_url');
 
 //        $this->load->view('home/select_chat', $data);
-        $this->load->view('home/chat0811', $data);
+        $this->load->view('home/homepage', $data);
 //        $this->load->view('pages/home', $data);
 
 //		echo $this->getIP().'<br>';
