@@ -31,7 +31,7 @@
       <p class="text-center">it is amazing that</p>
       <p class="text-center">my dreams are just dreams until i wake and see you face</p>
   </div>
-  <a href='/home/love'>our love story</a>
+  <a href='/home/love' style="font-size: 24px">our love story</a>
 
 <h1></h1>
 <em>&copy; 2017/08/24</em>

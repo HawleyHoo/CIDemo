@@ -21,6 +21,7 @@
     <div id="content">
         <div id="code">
             <span class="comments">和你在一起的每一天都很耀眼，</span><br/>
+            <span class="comments">因为天气好，</span><br/>
             <span class="comments">因为天气不好，</span><br/>
             <span class="comments">因为天气刚刚好，</span><br/>
             <span class="comments">每一天都很美好，</span><br/>
