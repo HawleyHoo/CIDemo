@@ -14,10 +14,13 @@
   </head>
 <body>
   <h1>欢迎来到Hoo的个人网站</h1>
+
+
+  <div class="col-md-12">
+      <img  class="dear-icon img-rounded" src="/static/cqq/images/cai.jpg" style="left: 20px">
+  </div>
+<!--  <div class="col-md-3"></div>-->
   <h1 class="text-center dear-icon">宝贝我爱你</h1>
-  <img  class="dear-icon img-rounded" src="/static/cqq/images/cai.jpg">
-  <div class="col-md-3"></div>
-  <div class="col-md-3"></div>
   <div class="dear-icon" style="background-color: #eee">
       <p class="text-center">i just want you know that</p>
       <p class="text-center">you are the love of my life</p>
