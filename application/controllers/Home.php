@@ -25,7 +25,7 @@ class Home extends Web_Controller
 
     public function hoo() {
         $data['base_url'] = $this->base_url;
-        $this->load->view('home/hoo', $data);
+        $this->load->view('we/hoo', $data);
     }
 
     public function love() {
